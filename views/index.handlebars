@@ -1,7 +1,7 @@
 <div class="container">
   <div class="row">
     <div class="col s6 offset-s3">
-      <h1 class="center-align header">Eat Da burger</h1>
+      <h1 class="center-align header">Eat Da Burger!</h1>
     </div>
   </div>
 </div>
@@ -36,7 +36,7 @@
                     <form action="/{{this.id}}?_method=PUT" method="POST">
 
                       <input type="hidden" name="devoured" value="false">
-                      <button class="btn-primary" type="submit">Devour It!</button>
+                      <button class="btn waves-effect waves-light" type="submit">Devour It!<i class="material-icons right" >send</i></button>
 
                     </form>
                   </div>
@@ -73,10 +73,10 @@
 
       <form class="create-update-form" action="/" method="POST">
         <div class="form-group">
-          <label for="dab">Burger Name:</label>
-          <input type="text" id="dab" name="burger_name">
+          <label for="burgerInput" class="inputLabel">Burger Name:</label>
+          <input type="text" id="burgerInput" name="burger_name">
         </div>
-        <button class="btn btn-primary" type="submit">Add Burger</button>
+        <button class="btn waves-effect waves-light" type="submit">Add Burger<i class="material-icons right">send</i></button>
       </form>
     </div>
   </div>

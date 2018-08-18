@@ -7,7 +7,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  font-family: 'Lobster', cursive;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
   background-image: url("https://i.giphy.com/media/LEDow0BfZVlOE/giphy.webp");
   background-attachment: fixed;
 }
@@ -20,13 +20,13 @@ main {
   margin-bottom: 50px;
   border: 5px inset #9e2312;
   padding: 15px;
-  background: rgba(203, 203, 218, 0.5);
+  background: rgba(203, 203, 218, 0.8);
 }
 
 .border {
   border: 5px inset #9e2312;
   min-height: 250px !important;
-  background: rgba(203, 203, 218, 0.5);
+  background: rgba(203, 203, 218, 0.8);
 }
 
 
@@ -40,12 +40,22 @@ li{
 }
 
 .colHeight {
-  height: 15px;
+  height: 25px;
 }
 
 .header {
   border: 5px inset #9e2312;
-  background: rgba(203, 203, 218, 0.5);
+  background: rgba(203, 203, 218, 0.8);
   text-align: center;
 
+}
+
+.inputLabel {
+  color: black;
+  font-size: 25px;
+}
+
+#changeBg {
+  animation-duration: 5s;
+  margin-top: 25px;
 }
