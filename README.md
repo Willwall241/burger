@@ -2,17 +2,17 @@
 
 This is a "Burger" eating Application that utilizes Nodes.js/Express/MySQL/Handlebars/Materialize
 
-#Description
+# Description
 
 This is a simple full stack application that was created to demonstration functionality between several front end and back end technologies. 
 
 Users will find a text enter toward the bottom of the page where they can type in the name of any burger they want. Once the user clicks Add Burger, this data is loaded to a MySQL database using JawsDB add-on for Heroku. The information will then be populated on the screen as a line item which will show their database id, name and a button that says devour me. Once the user clicks Devour Me! the database will update the devoured column for the line item from false to true. This will cause the item to shift onscreen from the Burgers section to the Burgers devoured seciotn and they will no longer have their button attached to them.
 
-#Demo
+# Demo
 
 You can access the demo hosted on Heroku [here](https://frozen-caverns-97397.herokuapp.com/)
 
-#Installation 
+# Installation 
 
 You also have the option to run this application locally:
 
