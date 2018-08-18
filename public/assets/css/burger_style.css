@@ -8,6 +8,8 @@ body {
   min-height: 100vh;
   flex-direction: column;
   font-family: 'Lobster', cursive;
+  background-image: url("https://i.giphy.com/media/LEDow0BfZVlOE/giphy.webp");
+  background-attachment: fixed;
 }
 
 main {
@@ -17,17 +19,20 @@ main {
 #add {
   margin-bottom: 50px;
   border: 5px inset #9e2312;
+  padding: 15px;
+  background: rgba(203, 203, 218, 0.5);
 }
 
 .border {
   border: 5px inset #9e2312;
   min-height: 250px !important;
+  background: rgba(203, 203, 218, 0.5);
 }
 
 
 
 .page-footer {
-  background-color: rgb(33, 54, 236);
+  background-color: rgb(136, 11, 7);
 }
 
 li{
@@ -36,4 +41,11 @@ li{
 
 .colHeight {
   height: 15px;
+}
+
+.header {
+  border: 5px inset #9e2312;
+  background: rgba(203, 203, 218, 0.5);
+  text-align: center;
+
 }
