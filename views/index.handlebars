@@ -12,20 +12,38 @@
 
     <div class="row">
 
-      <div class="col s6">
+      <div class="col s6 pull-s1 border">
 
-        <h2>Burgers to Eat</h2>
+
+
+        <h2 class="center-align">Burgers to Eat</h2>
 
         <ul>
           {{#each burgers}} {{#unless this.devoured}}
           <li>
-            {{this.id}} {{this.burger_name}}
 
-            <form action="/{{this.id}}?_method=PUT" method="POST">
-              <input type="hidden" name="devoured" value="false">
-              <button class="btn-primary" type="submit">Devour It!</button>
-            </form>
+            <div class="row">
+              <div class="col s12 colHeight">
 
+                <div class="row">
+
+                  <div class="col s6">
+
+                    {{this.id}} {{this.burger_name}}
+                  </div>
+
+                  <div class="col s6">
+                    <form action="/{{this.id}}?_method=PUT" method="POST">
+
+                      <input type="hidden" name="devoured" value="false">
+                      <button class="btn-primary" type="submit">Devour It!</button>
+
+                    </form>
+                  </div>
+
+                </div>
+              </div>
+            </div>
           </li>
           {{/unless}} {{/each}}
         </ul>
@@ -35,9 +53,9 @@
 
 
 
-      <div class="col s6">
+      <div class="col s6 push-s1 border">
 
-        <h2>Burgers Devoured: </h2>
+        <h2 class="center-align">Burgers Devoured: </h2>
 
         <ul>
           {{#each burgers}} {{#if this.devoured}}
@@ -49,8 +67,9 @@
 
       </div>
     </div>
-    <div id='add'>
-      <h2>Add a Burger: </h2>
+
+    <div id="add">
+      <h2 class="center-align">Add a Burger: </h2>
 
       <form class="create-update-form" action="/" method="POST">
         <div class="form-group">
@@ -60,5 +79,6 @@
         <button class="btn btn-primary" type="submit">Add Burger</button>
       </form>
     </div>
+  </div>
 
 </main>

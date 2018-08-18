@@ -1,0 +1,39 @@
+#burgerImg{
+  width: 160px;
+  height: 126px;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: 'Lobster', cursive;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+#add {
+  margin-bottom: 50px;
+  border: 5px inset #9e2312;
+}
+
+.border {
+  border: 5px inset #9e2312;
+  min-height: 250px !important;
+}
+
+
+
+.page-footer {
+  background-color: rgb(33, 54, 236);
+}
+
+li{
+  font-size: 25px;
+}
+
+.colHeight {
+  height: 15px;
+}
